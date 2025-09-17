@@ -1,10 +1,5 @@
-import { Flex, Text, Button } from "@radix-ui/themes";
+import {HelloComponent} from "@/components/HelloComponent";
 
 export default function MyApp() {
-  return (
-      <Flex direction="column" gap="2">
-        <Text>Hello from Landing page :)</Text>
-        <Button>Let's go</Button>
-      </Flex>
-  );
+  return <HelloComponent/>;
 }

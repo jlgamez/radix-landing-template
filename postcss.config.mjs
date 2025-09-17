@@ -1,5 +1,6 @@
 export default {
   plugins: {
-    '@tailwindcss/postcss': {},
+    // Tailwind CSS removed
+    // Add other PostCSS plugins here if needed
   },
 };
